@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="m.css">
+    <title>HELLO</title>
+</head>
+<body>
+        <section id="one">
+        <div id="section1">
+        <marquee class="marq" bgcolor="#62021E" hspace="60%">WELOME   TO   THE   CULNARY   HEAVEN</marquee>
+        <header>
+            <img src="lets cook image.jpg">
+        </header>
+         <nav>
+            <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                </ul>
+               </nav>
+        <img src="chef.jpg" height="30%" width="37%">
+        
+
+        <div class="content">
+            <div class="custom-text">
+                
+            <h1 class="cl">Aesthetic Cuisine</h1>
+            <p class="cl">Explore the flavors of nation</p>
+    </div>
+    <br><br>
+    <h5 class="cl1">Immerse yourself in the rich tapestry of flavors as we proudly present our store,
+        a treasure trove of recipes from diverse states across India. Delight in the authenticity of regional cuisines,
+         each narrating a unique tale through the language of spices and aromas.
+    </h5>
+    </div>
+    </div>
+    </section>
+    <section id="two">    
+        <div class="row">
+            <div class="column">  
+               <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="biryani.jpg" >
+  <img class="mySlides" src="vada.jpg" >
+  <img class="mySlides" src="puri.jpg">
+</div>
+        <br><br><p>From the aromatic biryanis of Hyderabad to the vibrant curries of Punjab, our collection
+             spans the entire culinary map, allowing you to savor the essence of India in its truest form
+        </p><br><br><br>
+        <img class="girl" src="chef2.jpg" width="60%" height="200">
+        
+        </div>
+       
+        <div class="column">
+            <img src="map.png">
+            <p>"Embark on a culinary journey with us!
+                Our store proudly presents a diverse collection of recipes from every corner of India</p>
+        </div>
+        </div>
+    </section>
+<section id="three">
+    <div class="row">
+        <div class="column">    
+            <img src="spices.jpg" width="50%" height="50%">
+            <p>Unlock the secrets of culinary perfection! At our store, you'll find a wealth of recipe tips to elevate your cooking game.
+                 From time-saving hacks to expert techniques, we've curated a comprehensive collection to guide you through every step
+                . Explore our store and enrich your culinary experience with our exclusive recipe tips."
+            </p>
+        </div>
+            <div class="column">
+                <p>
+            <img src="book.jpg" width="25%" height="50%">
+            "Discover joy in cooking with our curated recipe books
+            . Explore, savor, and master each recipe at your pace."
+                </p>
+            </div>
+            <div class="column">
+                <p>
+            <img src="digital.jpg" width="25%" height="50%">
+            "Explore, order, and enjoy a world of cooking at your fingertips
+             with our diverse online collection."
+            </p>
+
+            </div>
+            <div class="column">
+                <p>
+                    <img src="online.jpg" width="30%" height="30%">
+                    Explore endless recipes with us.
+                    Order books online or subscribe for instant digital access. Start cooking today!"
+                </p><br><br>
+        <p>Connect with us on social media:</p>
+        <img src="fb.png" width="20%" height="30%" style="margin-left: auto; margin-right: 10px;">
+        <img src="twi.png" width="20%" height="30%" style="margin-left: auto; margin-right: 10px;">
+        <img src="It.png" width="20%" height="5%" style="margin-left: auto; margin-right: 10px;">
+        <img src="wa.png" width="20%" height="5%" style="margin-left: auto; margin-right: 10px;">
+        </div>
+    </div>
+</section>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
